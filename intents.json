@@ -1,0 +1,47 @@
+{"intents" :  [
+  {
+    "tag" : "Greetings",
+    "patterns": ["hello", "Hey", "hii", "Good Day", "Namaste", "Pranaam", "How's up","Hii"],
+    "responses": ["Hii","What am i supposed to do?"]
+  },
+  {
+    "tag" : "Introduction",
+    "patterns": ["What is your Name?", "Your name?", "Name Please", "Name?", "Its pleasure, Name?", "Who are you?", "Your's name?"],
+    "responses": ["My name is D's Bot"]
+  },
+  {
+    "tag" : "Chat",
+    "patterns": ["okay","Okay","ohh","Ohh","oh"],
+    "responses": ["Yeah"]
+  },
+  {
+    "tag" : "Goodbye",
+    "patterns": ["See you later", "I am leaving", "It was a Good Day", "Bye", "See you again", "See ya"],
+    "responses": ["It was Pleasure while having chat with you, Thank you"]
+  },
+  {
+    "tag" : "Developer",
+    "patterns": ["Who is your Developer?", "Who has developed you?","You are develped by?"],
+    "responses": ["My masters name is Daksh"]
+  },
+  {
+    "tag" : "Age",
+    "patterns": ["How old are you?", "What is your age?", "Age?", "Your Age?", "How old?", "Nice, How old are you?", "Age please?"],
+    "responses": ["Ohh, I do not have any age. I am as new as old"]
+  },
+  {
+    "tag" : "Shop",
+    "patterns": ["I did like to buy something", "What are your products?", "What do you recommend?", "what are you selling", "What do you have?"],
+    "responses": ["Okay I will try my best to provide you on your demanded option."]
+  },
+  {
+    "tag" : "Hour",
+    "patterns": ["When are you open?", "What are your hours", "At what time are you open", "Hour of operation?","open at?"],
+    "responses": ["24/7"]
+  },
+  {
+    "tag" : "Stocks",
+    "patterns": ["What stock do i own?", "How are my shares?", "What companies am i  investing in?", "What am i doing with the stock?"],
+    "responses": ["You have  the given stocks: CASSSV, GSTRV,  HUFHT, NOLKU and ETF of 800 Index!"]
+  }
+]}
